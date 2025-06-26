@@ -3877,22 +3877,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdude2314/backstage-plugin-scaffolder-json-merge-actions@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@mdude2314/backstage-plugin-scaffolder-json-merge-actions@workspace:."
-  dependencies:
-    "@backstage/backend-common": "npm:^0.14.0"
-    "@backstage/backend-plugin-api": "npm:^0.8.0"
-    "@backstage/cli": "npm:^0.17.2"
-    "@backstage/plugin-scaffolder-backend": "npm:^1.3.0"
-    "@backstage/plugin-scaffolder-node": "npm:^0.4.9"
-    "@backstage/types": "npm:^1.1.1"
-    "@types/jest": "npm:^29.2.3"
-    husky: "npm:^9.1.5"
-    json-merger: "npm:^1.1.9"
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -4300,6 +4284,22 @@ __metadata:
   checksum: 10c0/5bd7576bb1b38a47a7fc7b51ac9f38748e772beebc56200450c4a817d712232b8f1d3ef70532c80840243c657d491cf6a6be1e3a214cff907645819fdc34aadd
   languageName: node
   linkType: hard
+
+"@platacard/backstage-plugin-scaffolder-json-merge-actions@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@platacard/backstage-plugin-scaffolder-json-merge-actions@workspace:."
+  dependencies:
+    "@backstage/backend-common": "npm:^0.14.0"
+    "@backstage/backend-plugin-api": "npm:^0.8.0"
+    "@backstage/cli": "npm:^0.17.2"
+    "@backstage/plugin-scaffolder-backend": "npm:^1.3.0"
+    "@backstage/plugin-scaffolder-node": "npm:^0.4.9"
+    "@backstage/types": "npm:^1.1.1"
+    "@types/jest": "npm:^29.2.3"
+    husky: "npm:^9.1.5"
+    json-merger: "npm:^1.1.9"
+  languageName: unknown
+  linkType: soft
 
 "@rollup/plugin-commonjs@npm:^22.0.0":
   version: 22.0.2

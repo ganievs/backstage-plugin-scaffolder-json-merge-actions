@@ -1,5 +1,5 @@
 {
-  "name": "@mdude2314/backstage-plugin-scaffolder-json-merge-actions",
+  "name": "@platacard/backstage-plugin-scaffolder-json-merge-actions",
   "description": "The json-merge actions module for @backstage/plugin-scaffolder-backend",
   "version": "1.2.1",
   "main": "src/index.ts",
@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arhill05/backstage-plugin-scaffolder-json-merge-actions.git"
+    "url": "https://github.com/platacard/backstage-plugin-scaffolder-json-merge-actions.git"
   },
   "publishConfig": {
     "access": "public",
@@ -26,6 +26,7 @@
     "prepack": "backstage-cli package prepack",
     "postpack": "backstage-cli package postpack"
   },
+  "packageManager": "yarn@4.1.1",
   "dependencies": {
     "@backstage/backend-plugin-api": "^0.8.0",
     "@backstage/plugin-scaffolder-backend": "^1.3.0",
